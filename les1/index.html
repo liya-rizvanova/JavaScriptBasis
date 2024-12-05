@@ -1,0 +1,193 @@
+<!-- 
+Текст задания
+1. Установить расширение форматирования кода
+2. Установить расширение “JavaScript Snippet Pack”
+3. Сделайте файл с вашей первой программой.
+a. index.html
+b. script.js
+4. Подключите файл script.js к index.html
+5. В файле index.html создайте скрипт который выводит в
+консоль текст “Текст из index.html”
+6. В файле script.js вывести в консоль текст “Текст из
+script.js!”
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+      console.log('Text from index.html');
+  </script>
+  <script src="script.js"></script>
+</body>
+</html> -->
+
+<!-- 
+Текст задания
+1. Создайте переменную num и присвойте ей значение 123. Выведите
+значение этой переменной в консоль
+2. Создайте переменную а и присвойте ей значение 5, переопределите
+переменную а на значение 7, выведите переменную а в консоль
+3. Создайте переменную b. Запишите в нее сумму чисел 1, 2 и 3. С
+помощью функции console.log выведите в консоль содержимое
+переменной b.
+4. Создайте 2 вида комментариев в вашем коде, добавьте в них
+произвольный текст /* comment */
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			// 1
+			let num = 123;
+			console.log(num);
+
+			// 2
+			let a = 5;
+			a = 7;
+			console.log(a);
+
+			// 3
+			let b = 1 + 2 + 3;
+			console.log(b);
+		</script>
+	</body>
+</html> -->
+
+<!-- 
+Создайте переменную c со значением 10 и переменную d со
+значением 2.
+a. Все созданные переменные должны быть логично названы
+b. Создайте переменную суммы и присвойте сумму чисел (c,d)
+c. Создайте переменную разности и присвойте разность чисел
+(c,d)
+d. Создайте переменную прозведения и присвойте произведение
+чисел (c,d)
+e. Создайте переменную частного и присвойте деление чисел
+(c,d)
+f. Выведите в консоль все созданные переменные
+g. Сложите все созданные переменные и выведите результат в
+консоль
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let c = 10;
+    let d = 2;
+
+    let sum = c + d;
+    let difference = c - d;
+    let multiply = c * d;
+    let divide = c / d;
+
+    console.log(`Sum: ${sum}`);
+    console.log(`Difference: ${difference}`);
+    console.log(`Multiplication: ${multiply}`);
+    console.log(`Division: ${divide}`);
+
+    console.log(`Summary: ${sum + difference + multiply + divide}`);
+  </script>
+</body>
+</html> -->
+
+<!-- 
+Задание 4 (тайминг 10 минут)
+1. Не запуская код, определите, что выведется в консоль:
+a. let a = 5 + 5 * 3 + 3; // 23
+2. Не запуская код, определите, что выведется в консоль:
+a. let a = 8 / 2 + 2; // 6
+3. Не запуская код, определите, что выведется в консоль:
+a. let a = (2 + 3) * (2 + 3); // 25
+4. Не запуская код, определите, что выведется в консоль:
+a. let a = (2 + 3) * 2 + 3; // 13
+5. Не запуская код, определите, что выведется в консоль:
+a. let a = (2 * 8) / 4; // 4
+6. Не запуская код, определите, что выведется в консоль:
+a. let a = 2 * (8 / 4); // 4 -->
+
+<!-- 
+1. Запишите в переменную a число 1.5, а в переменную b - число 0.75.
+Найдите сумму значений этих переменных и выведите ее на экран.
+2. Создайте переменную a, запишите в нее какое-нибудь
+положительное или отрицательное число. Выведите на экран это
+число с обратным знаком.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let a = 1.5;
+    let b = 0.75;
+    console.log(a + b);
+
+    let c = -2.5;
+    c = -c;
+    console.log(c);
+
+    // либо аналогично let c будет работать let d и let e
+    let d = 10;
+    console.log(-d);
+
+    let e = -5;
+    console.log(-e);
+
+    let f = 2.5;
+    f = -f;
+    console.log(f);
+
+  </script>
+</body>
+</html> -->
+
+<!-- 
+1. Создайте строку с вашем именем и строку с вашей фамилией.
+Выведите эти данные в консоль
+2. Создайте переменную с текстом 'java' и переменную с текстом
+'script'. С помощью этих переменных и операции сложения строк
+выведите в консоль строку 'javascript'.
+3. Создайте переменную с текстом 'hello' и переменную с текстом
+'world'. С помощью этих переменных и операции сложения строк
+выведите в консоль строку 'hello world'.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let name = 'John';
+    let surname = 'Doe';
+
+    console.log(`Hello, ${name} ${surname}!`); // Hello, John Doe!
+    console.log(name + ' ' + surname); // John Doe
+    console.log(`${name}, ${surname}`); // John, Doe
+    console.log('java' + 'script'); // javascript
+    console.log('Hello' + 'World'); // HelloWorld
+    console.log('Hello ' + 'World'); // Hello World
+  </script>
+</body>
+</html> -->
